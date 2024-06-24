@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(to top right, darkcyan, black);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-style: italic;
+}
+#outer-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+}
+#inner-container{
+    border-radius: 10px;
+    width: 25em;
+    height: auto;
+    text-align: center;
+}
+
+#time{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    border-radius: 70px;
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#start,#restart{
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#stop{
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: black;
+    cursor: pointer;
+    display: none;
+    margin-right: 10px;
+
+}
+#play,#pause,#restart-img{
+    width: 125%;;   
+}
